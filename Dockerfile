@@ -14,6 +14,9 @@ RUN add-apt-repository ppa:webupd8team/java
 # Update apt
 RUN apt-get update
 
+# Install svn
+RUN apt-get -y install subversion
+
 # Install git
 RUN apt-get -y install git-core
 
