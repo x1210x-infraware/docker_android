@@ -20,6 +20,9 @@ RUN apt-get -y install git-core
 # Install Java 8
 RUN apt-get -y install oracle-java8-installer
 
+# Install support libraries
+RUN apt-get install libc6-i386 lib32stdc++6
+
 # Install android sdk
 RUN wget http://dl.google.com/android/android-sdk_r24.2-linux.tgz
 RUN tar -xvzf android-sdk_r24.2-linux.tgz
