@@ -1,4 +1,3 @@
-# test
 FROM ubuntu:14.04
 MAINTAINER x1210x <x1210x@gmail.com>
 
