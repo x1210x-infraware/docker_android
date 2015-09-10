@@ -41,4 +41,4 @@ ENV PATH $PATH:$ANDROID_HOME/platform-tools
 ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
 
 # Install latest android (19 / 4.4.2) tools and system image.
-RUN echo "y" | android update sdk --no-ui --force --filter platform-tools,android-21,android-22,android-23,build-tools-22.2.0,build-tools-23.0.1,extra-android-support,extra-android-support,extra-android-m2repository
+RUN echo "y" | android update sdk --no-ui --force --filter platform-tools,android-21,android-22,android-23,build-tools-21.1.1,build-tools-22.2.0,build-tools-23.0.1,extra-android-support,extra-android-support,extra-android-m2repository
